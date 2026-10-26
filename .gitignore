@@ -37,3 +37,4 @@ supabase/.temp/
 firmware/**/*.hex
 firmware/**/*.elf
 firmware/**/*.bin
+*.pdf
