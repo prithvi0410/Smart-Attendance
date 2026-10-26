@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+dashboard/node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build output
+dashboard/dist/
+dashboard/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Scratch and deployment scripts containing local credentials/keys
+deploy_args.json
+deploy_script.js
+update-ai*.js
+dashboard/check.ts
+dashboard/create-user.ts
+dashboard/test-db.ts
+
+# Supabase
+supabase/.temp/
+
+# Arduino build artifacts
+firmware/**/*.hex
+firmware/**/*.elf
+firmware/**/*.bin
